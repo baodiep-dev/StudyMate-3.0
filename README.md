@@ -9,6 +9,8 @@ StudyMate Pro is a Java-based desktop application designed to enhance student pr
 A video demonstration of StudyMate Pro can be found here:  
 🔗 [Watch the Demo Video](https://drive.google.com/drive/folders/16Y_0tOriXSakShvCUrVJM86H3hA2uw6y?usp=sharing)
 
+
+
 ---
 
 ## 🧠 Project Overview
