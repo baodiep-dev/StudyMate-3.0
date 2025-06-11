@@ -52,7 +52,7 @@ CREATE TABLE attendance (
 );
 ```
 
-### 🗃️ Features
+**Features:**
 
 - Stores student names and timestamps  
 - Timezone-aware logging (e.g., Asia/Kolkata)  
