@@ -1,113 +1,122 @@
-# 🎓 StudyMate Pro – Your All-in-One Academic Companion
+# StudyMate 3.0 📚🤖
 
-StudyMate Pro is a Java-based desktop application designed to enhance student productivity with tools for attendance tracking, learning resources, quizzes, assignments, and interactive games—all in one place.
+![StudyMate Banner](https://img.shields.io/badge/StudyMate-3.0-blue?style=flat&logo=appveyor)
 
----
+Welcome to **StudyMate 3.0**! This repository hosts an innovative academic companion designed to enhance student engagement and productivity through the power of technology. Our application combines Java and Python to offer features like AI-powered attendance, quizzes, assignments, video tutorials, and mini-games.
 
-## 🎥 Demo
+## Table of Contents
 
-A video demonstration of StudyMate Pro can be found here:  
-🔗 [Watch the Demo Video](https://drive.google.com/drive/folders/16Y_0tOriXSakShvCUrVJM86H3hA2uw6y?usp=sharing)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
+## Features 🌟
 
+- **AI-Powered Attendance**: Automatically track attendance using face recognition technology.
+- **Interactive Quizzes**: Engage with quizzes that adapt to your learning pace.
+- **Assignments Management**: Organize and submit assignments efficiently.
+- **Video Tutorials**: Access a library of tutorials for various subjects.
+- **Gamified Learning**: Enjoy learning through mini-games that reinforce concepts.
 
----
+## Technologies Used 🛠️
 
-## 🧠 Project Overview
+- **Java**: For backend development and core application logic.
+- **Python**: Used for AI functionalities and data processing.
+- **OpenCV**: Implemented for face recognition and image processing.
+- **SQLite**: Lightweight database for managing user data and application state.
+- **Swing GUI**: Java's built-in toolkit for building desktop applications.
+- **Tkinter**: Python's standard GUI toolkit for building user interfaces.
 
-StudyMate Pro addresses common academic challenges:
+## Installation ⚙️
 
-- **Manual attendance tracking** → Replaced with AI-powered facial recognition  
-- **Scattered learning resources** → Centralized video links & assignments  
-- **Lack of engagement** → Interactive quizzes & mini-games for fun learning  
+To get started with **StudyMate 3.0**, follow these steps:
 
----
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/baodiep-dev/StudyMate-3.0.git
+   ```
 
-## 🎯 Objectives
+2. **Navigate to the project directory**:
+   ```bash
+   cd StudyMate-3.0
+   ```
 
-- ✅ Automate attendance using face recognition (Python + OpenCV)  
-- ✅ Centralize study materials (Java, C, Python video tutorials + assignments)  
-- ✅ Engage students with quizzes and word/number games  
-- ✅ Secure access via login system (Username: `VPN`, Password: `vpn123`)  
+3. **Install dependencies**:
+   For Java:
+   - Ensure you have JDK installed.
+   - Use Maven or Gradle to manage dependencies.
 
----
+   For Python:
+   - Install the required libraries using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## ⚙️ Tech Stack
+4. **Run the application**:
+   - For Java:
+   ```bash
+   java -jar StudyMate.jar
+   ```
+   - For Python:
+   ```bash
+   python main.py
+   ```
 
-| Component              | Description                                          |
-| ---------------------- | ---------------------------------------------------- |
-| **Java (Swing GUI)**   | Core application framework with interactive UI       |
-| **Python (OpenCV)**    | Facial recognition for attendance marking            |
-| **SQLite**             | Local database for storing attendance records        |
-| **JVM**                | Cross-platform execution of Java modules             |
+## Usage 📖
 
----
+Once you have installed **StudyMate 3.0**, you can start using its features:
 
-## 🗃️ Database Design
+- **Attendance**: Log in and use the face recognition feature to mark your attendance.
+- **Quizzes**: Navigate to the quizzes section to take interactive quizzes.
+- **Assignments**: Upload your assignments directly through the app.
+- **Tutorials**: Access video tutorials from the main menu.
+- **Games**: Play mini-games designed to reinforce learning concepts.
 
-**SQLite Schema:**  
-```sql
-CREATE TABLE attendance (
-    id        INTEGER PRIMARY KEY AUTOINCREMENT,
-    name      TEXT    NOT NULL,
-    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
-);
-```
+## Contributing 🤝
 
-**Features:**
+We welcome contributions from everyone! If you want to help improve **StudyMate 3.0**, please follow these steps:
 
-- Stores student names and timestamps  
-- Timezone-aware logging (e.g., Asia/Kolkata)  
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make your changes** and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to the branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. **Create a pull request**.
 
----
+## License 📜
 
-## 💡 Key Features
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### 🔐 Secure Login System
-- Username/password authentication (`VPN` / `vpn123`)  
-- Launches the main StudyMate dashboard upon success  
+## Contact 📬
 
-### 🤖 Facial Attendance (AI-Powered)
-- Uses OpenCV + `face_recognition` (Python) to detect and log students  
-- Real-time webcam feed with bounding boxes  
+For questions or suggestions, feel free to reach out:
 
-### 📚 Study Resources
-- **Video Links:** Direct YouTube integration for Java/C/Python tutorials  
-- **Assignments:** Displays programming tasks with descriptions  
+- **Email**: your.email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
 
-### 🧩 Interactive Quizzes
-- Multiple-choice quizzes for Java, C, Python  
-- Dynamic scoring and instant feedback  
+## Releases 📦
 
-### 🕹️ Mini-Games
-- **Guess the Number:** Math-based challenge (1–10 range)  
-- **Word Guesser:** Linear data structure terminology game  
+You can find the latest releases of **StudyMate 3.0** [here](https://github.com/baodiep-dev/StudyMate-3.0/releases). Download and execute the latest version to get started.
 
-### 🧱 Modular Design
-- **Extensible:** Easy to add new subjects or games  
-- **OOP Principles:** Abstract `Game` class for reusable game logic  
+If you have any issues or need older versions, please check the "Releases" section in this repository.
 
----
+## Conclusion 🌈
 
-## ✅ Conclusion
+**StudyMate 3.0** aims to revolutionize the way students learn and engage with their studies. By leveraging the latest in AI and software development, we provide tools that make education more interactive and enjoyable. Join us in this journey to enhance academic experiences for everyone!
 
-StudyMate Pro bridges productivity and engagement for students by combining:
+![StudyMate Learning](https://img.shields.io/badge/Join_Us-Now-orange?style=flat&logo=github)
 
-- **Automation** (attendance)  
-- **Centralized resources** (videos & assignments)  
-- **Interactive learning** (quizzes & games)  
-
----
-
-## 🔮 Future Upgrades
-
-- Add user profiles (multi-student support)  
-- Integrate a cloud database for remote access  
-
----
-
-## 📬 Contact
-
-For questions or contributions, feel free to reach out:  
-📧 **Email:** vipinchoudhary0911@gmail.com  
-🔗 **GitHub:** [github.com/VipinChoudhary-dev](https://github.com/VipinChoudhary-dev)
+Feel free to explore, contribute, and make the most out of **StudyMate 3.0**!
